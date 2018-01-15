@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javabook-inputoutput.iml" filepath="$PROJECT_DIR$/.idea/modules/javabook-inputoutput.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javabook-inputoutput_main.iml" filepath="$PROJECT_DIR$/.idea/modules/javabook-inputoutput_main.iml" group="javabook-inputoutput" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javabook-inputoutput_test.iml" filepath="$PROJECT_DIR$/.idea/modules/javabook-inputoutput_test.iml" group="javabook-inputoutput" />
+    </modules>
+  </component>
+</project>

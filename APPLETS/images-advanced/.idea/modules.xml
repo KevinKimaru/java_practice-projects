@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/images-advanced.iml" filepath="$PROJECT_DIR$/.idea/modules/images-advanced.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/images-advanced_main.iml" filepath="$PROJECT_DIR$/.idea/modules/images-advanced_main.iml" group="images-advanced" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/images-advanced_test.iml" filepath="$PROJECT_DIR$/.idea/modules/images-advanced_test.iml" group="images-advanced" />
+    </modules>
+  </component>
+</project>

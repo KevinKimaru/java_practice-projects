@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/regular-expressions-java-doc.iml" filepath="$PROJECT_DIR$/.idea/modules/regular-expressions-java-doc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/regular-expressions-java-doc_main.iml" filepath="$PROJECT_DIR$/.idea/modules/regular-expressions-java-doc_main.iml" group="regular-expressions-java-doc" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/regular-expressions-java-doc_test.iml" filepath="$PROJECT_DIR$/.idea/modules/regular-expressions-java-doc_test.iml" group="regular-expressions-java-doc" />
+    </modules>
+  </component>
+</project>

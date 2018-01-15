@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_testing_c_vs_java" default="compile.module.testing_c_vs_java">
+  <dirname property="module.testing_c_vs_java.basedir" file="${ant.file.module_testing_c_vs_java}"/>
+  
+  <property name="module.jdk.home.testing_c_vs_java" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.testing_c_vs_java" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.testing_c_vs_java" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.testing_c_vs_java" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="testing_c_vs_java.output.dir" value="${module.testing_c_vs_java.basedir}/out/production/testing c vs java"/>
+  <property name="testing_c_vs_java.testoutput.dir" value="${module.testing_c_vs_java.basedir}/out/test/testing c vs java"/>
+  
+  <path id="testing_c_vs_java.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="testing_c_vs_java.module.production.classpath">
+    <path refid="${module.jdk.classpath.testing_c_vs_java}"/>
+  </path>
+  
+  <path id="testing_c_vs_java.runtime.production.module.classpath">
+    <pathelement location="${testing_c_vs_java.output.dir}"/>
+  </path>
+  
+  <path id="testing_c_vs_java.module.classpath">
+    <path refid="${module.jdk.classpath.testing_c_vs_java}"/>
+    <pathelement location="${testing_c_vs_java.output.dir}"/>
+  </path>
+  
+  <path id="testing_c_vs_java.runtime.module.classpath">
+    <pathelement location="${testing_c_vs_java.testoutput.dir}"/>
+    <pathelement location="${testing_c_vs_java.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.testing_c_vs_java">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.testing_c_vs_java">
+    <patternset refid="excluded.from.module.testing_c_vs_java"/>
+  </patternset>
+  
+  <path id="testing_c_vs_java.module.sourcepath">
+    <dirset dir="${module.testing_c_vs_java.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.testing_c_vs_java" depends="compile.module.testing_c_vs_java.production,compile.module.testing_c_vs_java.tests" description="Compile module testing c vs java"/>
+  
+  <target name="compile.module.testing_c_vs_java.production" depends="register.custom.compilers" description="Compile module testing c vs java; production classes">
+    <mkdir dir="${testing_c_vs_java.output.dir}"/>
+    <javac2 destdir="${testing_c_vs_java.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.testing_c_vs_java}/javac">
+      <compilerarg line="${compiler.args.testing_c_vs_java}"/>
+      <bootclasspath refid="testing_c_vs_java.module.bootclasspath"/>
+      <classpath refid="testing_c_vs_java.module.production.classpath"/>
+      <src refid="testing_c_vs_java.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.testing_c_vs_java"/>
+    </javac2>
+    
+    <copy todir="${testing_c_vs_java.output.dir}">
+      <fileset dir="${module.testing_c_vs_java.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.testing_c_vs_java.tests" depends="register.custom.compilers,compile.module.testing_c_vs_java.production" description="compile module testing c vs java; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.testing_c_vs_java" description="cleanup module">
+    <delete dir="${testing_c_vs_java.output.dir}"/>
+    <delete dir="${testing_c_vs_java.testoutput.dir}"/>
+  </target>
+</project>

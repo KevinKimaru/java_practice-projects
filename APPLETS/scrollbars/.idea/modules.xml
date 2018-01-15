@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scrollbars.iml" filepath="$PROJECT_DIR$/.idea/modules/scrollbars.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scrollbars_main.iml" filepath="$PROJECT_DIR$/.idea/modules/scrollbars_main.iml" group="scrollbars" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scrollbars_test.iml" filepath="$PROJECT_DIR$/.idea/modules/scrollbars_test.iml" group="scrollbars" />
+    </modules>
+  </component>
+</project>

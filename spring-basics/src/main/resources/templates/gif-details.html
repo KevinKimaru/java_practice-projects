@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Gif Details</title>
+    <style>
+        .favourite {
+            border-radius: 15%;
+            width: 20px;
+            height: 20px;
+            border: 2px solid green;
+        }
+        .mark {
+            background-color: red;
+            border: none;
+        }
+
+        img {
+            border-radius: 50%;
+        }
+
+        h4{
+            font-size: 40px;
+            color: purple;
+        }
+
+        p {
+            font-size: 20px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="gif-detail">
+    <img th:src="@{'/gifs/' + ${gif.name} + '.jpg'}" alt="gif"/>
+    <div th:class="(${gif.favorite} ? 'mark' : '') + ' favourite'"></div>
+    <h4 th:text="${gif.username}"></h4>
+    <p th:text="'Uploaded on ' + ${gif.dateUploaded}"></p>
+    <br/>
+    <br/>
+    <p th:text="'http://www.kevin/' + ${gif.name}"></p>
+</div>
+</body>
+</html>

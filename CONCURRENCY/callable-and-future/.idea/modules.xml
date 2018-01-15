@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/callable-and-future.iml" filepath="$PROJECT_DIR$/.idea/modules/callable-and-future.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/callable-and-future_main.iml" filepath="$PROJECT_DIR$/.idea/modules/callable-and-future_main.iml" group="callable-and-future" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/callable-and-future_test.iml" filepath="$PROJECT_DIR$/.idea/modules/callable-and-future_test.iml" group="callable-and-future" />
+    </modules>
+  </component>
+</project>

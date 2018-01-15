@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/using_applet_tag.iml" filepath="$PROJECT_DIR$/.idea/modules/using_applet_tag.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/using_applet_tag_main.iml" filepath="$PROJECT_DIR$/.idea/modules/using_applet_tag_main.iml" group="using_applet_tag" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/using_applet_tag_test.iml" filepath="$PROJECT_DIR$/.idea/modules/using_applet_tag_test.iml" group="using_applet_tag" />
+    </modules>
+  </component>
+</project>

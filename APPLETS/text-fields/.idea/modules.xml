@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/text-fields.iml" filepath="$PROJECT_DIR$/.idea/modules/text-fields.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/text-fields_main.iml" filepath="$PROJECT_DIR$/.idea/modules/text-fields_main.iml" group="text-fields" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/text-fields_test.iml" filepath="$PROJECT_DIR$/.idea/modules/text-fields_test.iml" group="text-fields" />
+    </modules>
+  </component>
+</project>

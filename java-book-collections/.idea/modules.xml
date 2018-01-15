@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-book-collections.iml" filepath="$PROJECT_DIR$/.idea/modules/java-book-collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-book-collections_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-book-collections_main.iml" group="java-book-collections" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-book-collections_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-book-collections_test.iml" group="java-book-collections" />
+    </modules>
+  </component>
+</project>

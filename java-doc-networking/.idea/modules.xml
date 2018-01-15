@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-doc-networking.iml" filepath="$PROJECT_DIR$/.idea/modules/java-doc-networking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-doc-networking_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-doc-networking_main.iml" group="java-doc-networking" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-doc-networking_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-doc-networking_test.iml" group="java-doc-networking" />
+    </modules>
+  </component>
+</project>

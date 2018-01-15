@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/simple-fork-join-using-recursive-task.iml" filepath="$PROJECT_DIR$/.idea/modules/simple-fork-join-using-recursive-task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/simple-fork-join-using-recursive-task_main.iml" filepath="$PROJECT_DIR$/.idea/modules/simple-fork-join-using-recursive-task_main.iml" group="simple-fork-join-using-recursive-task" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/simple-fork-join-using-recursive-task_test.iml" filepath="$PROJECT_DIR$/.idea/modules/simple-fork-join-using-recursive-task_test.iml" group="simple-fork-join-using-recursive-task" />
+    </modules>
+  </component>
+</project>

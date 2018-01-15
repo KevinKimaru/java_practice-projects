@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/images-double-buffering.iml" filepath="$PROJECT_DIR$/.idea/modules/images-double-buffering.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/images-double-buffering_main.iml" filepath="$PROJECT_DIR$/.idea/modules/images-double-buffering_main.iml" group="images-double-buffering" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/images-double-buffering_test.iml" filepath="$PROJECT_DIR$/.idea/modules/images-double-buffering_test.iml" group="images-double-buffering" />
+    </modules>
+  </component>
+</project>

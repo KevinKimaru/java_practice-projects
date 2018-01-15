@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-strings.iml" filepath="$PROJECT_DIR$/.idea/modules/java-strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-strings_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-strings_main.iml" group="java-strings" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-strings_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-strings_test.iml" group="java-strings" />
+    </modules>
+  </component>
+</project>

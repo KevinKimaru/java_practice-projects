@@ -1,0 +1,133 @@
+#selectedBtn {
+    -fx-background-color: #80bfff;
+}
+
+.font2 {
+    -fx-font-size: 1.5em;
+}
+
+.nodePadding1 {
+    -fx-padding: 10px;
+}
+
+.childrenSpacing1 {
+    -fx-spacing: 20;
+}
+
+.childrenSpacing2 {
+    -fx-spacing: 10;
+}
+
+.defaultBackground {
+    -fx-background-color: #e5fff2;
+}
+
+.titleViewBackground {
+    -fx-background-color: #ccff99;
+}
+
+.defaultFont {
+    -fx-font-family: Century;
+}
+
+.title1 {
+    -fx-font-family: "Bodoni MT";
+    -fx-font-size: 3.5em;
+    -fx-text-fill: #660000;
+}
+
+.title2 {
+    -fx-font-family: "Bodoni MT";
+    -fx-font-size: 2.2em;
+    -fx-text-fill: #660000;
+}
+
+.title3 {
+    -fx-font-family: "Bodoni MT";
+    -fx-font-size: 1.8em;
+    -fx-text-fill: #660000;
+}
+
+.title4 {
+    -fx-font-family: "Bodoni MT";
+    -fx-font-size: 1.8em;
+    -fx-text-fill: #660000;
+}
+
+.navigationBar1 {
+    -fx-background-color: #b3e5b3;
+    -fx-font-family: "AR ESSENCE";
+    -fx-font-size: 2em;
+}
+
+.navigationBar2 {
+    -fx-background-color: #b3e5b3;
+    -fx-font-family: "AR ESSENCE";
+    -fx-font-size: 1.4em;
+}
+
+.informationViews {
+    -fx-background-color: #ccff99;
+    -fx-font-size: 1.5em;
+    -fx-font-family: "Kristen ITC";
+    -fx-padding: 20px;
+}
+
+.table-view .column-header .label {
+    -fx-font-family: "Bodoni MT";
+    -fx-font-size: 1.3em;
+    -fx-text-fill: #660000;
+}
+
+.list-view {
+    -fx-pref-height: 120;
+    -fx-text-fill: #660000;
+}
+
+.btnInfo {
+    -fx-background-color: #007fff;
+    -fx-font-size: 1.4em;
+    -fx-border-radius: 10.0;
+    -fx-pref-width: 100;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.btnInfo2 {
+    -fx-background-color: #007fff;
+    -fx-border-radius: 10.0;
+    -fx-pref-width: 100;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.btnInfo3 {
+    -fx-background-color: #007fff;
+    -fx-font-size: 1.4em;
+    -fx-border-radius: 10.0;
+    -fx-pref-width: 200;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.btnDanger {
+    -fx-background-color: #ff1a1a;
+    -fx-font-size: 1.4em;
+    -fx-border-radius: 10.0;
+    -fx-pref-width: 100;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.btnDanger2 {
+    -fx-background-color: #ff1a1a;
+    -fx-border-radius: 10.0;
+    -fx-pref-width: 100;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+}
+
+.mainViews {
+    -fx-padding: 20;
+}
+

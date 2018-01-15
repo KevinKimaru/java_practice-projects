@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/atomic.iml" filepath="$PROJECT_DIR$/.idea/modules/atomic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/atomic_main.iml" filepath="$PROJECT_DIR$/.idea/modules/atomic_main.iml" group="atomic" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/atomic_test.iml" filepath="$PROJECT_DIR$/.idea/modules/atomic_test.iml" group="atomic" />
+    </modules>
+  </component>
+</project>

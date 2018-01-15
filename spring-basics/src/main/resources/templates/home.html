@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" th:href="@{/app.css}"/>
+    <link rel="stylesheet" th:href="@{/bootstrap/css/bootstrap.css}"/>
+    <title>Giflib | home</title>
+    <style>
+        .favourite {
+            border-radius: 15%;
+            width: 20px;
+            height: 20px;
+            border: 2px solid green;
+        }
+        .mark {
+            background-color: red;
+            border: none;
+        }
+
+        img {
+            width: 300px;
+            height: 250px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+<h1 class="text-center primary">Home</h1>
+<div th:each="gif : ${gifs}" class="col-sm-3 col-sm-offset-1">
+    <a th:href="@{'/gif/' + ${gif.name}}">
+        <img th:src="@{'/gifs/' + ${gif.name} + '.jpg'}" alt="gif"/>
+        <p th:class="(${gif.favorite} ? 'mark' : '') + ' favourite'"></p>
+        <br/>
+    </a>
+</div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Categories</title>
+    <link rel="stylesheet" th:href="@{/bootstrap/css/bootstrap.css}"/>
+    <style>
+        #category {
+            border-radius: 10%;
+            color: white;
+            width: 250px;
+            height:200px;
+            background-color: purple;
+            font-size: 40px;
+        }
+        a:hover {
+            text-decoration: none;
+        }
+
+        #catName {
+            padding: 10%;
+
+        }
+
+
+    </style>
+</head>
+<body>
+<h1 class="text-primary text-center">Categories</h1>
+<div th:each="category : ${categories}" class="col-sm-3 col-sm-offset-1">
+    <a th:href="@{'/category/' + ${category.id}}">
+        <div id="category">
+            <p id="catName" th:text="${category.name}"></p>
+        </div>
+    </a>
+</div>
+</body>
+</html>

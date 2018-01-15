@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-book-multithreading.iml" filepath="$PROJECT_DIR$/.idea/modules/java-book-multithreading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-book-multithreading_main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-book-multithreading_main.iml" group="java-book-multithreading" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-book-multithreading_test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-book-multithreading_test.iml" group="java-book-multithreading" />
+    </modules>
+  </component>
+</project>

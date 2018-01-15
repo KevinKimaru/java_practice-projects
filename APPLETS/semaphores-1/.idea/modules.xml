@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/semaphores-1.iml" filepath="$PROJECT_DIR$/.idea/modules/semaphores-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/semaphores-1_main.iml" filepath="$PROJECT_DIR$/.idea/modules/semaphores-1_main.iml" group="semaphores-1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/semaphores-1_test.iml" filepath="$PROJECT_DIR$/.idea/modules/semaphores-1_test.iml" group="semaphores-1" />
+    </modules>
+  </component>
+</project>

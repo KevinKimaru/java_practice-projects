@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jscrollpane.iml" filepath="$PROJECT_DIR$/.idea/modules/jscrollpane.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jscrollpane_main.iml" filepath="$PROJECT_DIR$/.idea/modules/jscrollpane_main.iml" group="jscrollpane" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jscrollpane_test.iml" filepath="$PROJECT_DIR$/.idea/modules/jscrollpane_test.iml" group="jscrollpane" />
+    </modules>
+  </component>
+</project>

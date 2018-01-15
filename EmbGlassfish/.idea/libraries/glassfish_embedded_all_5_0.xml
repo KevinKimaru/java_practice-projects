@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="glassfish-embedded-all-5.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/glassfish-embedded-all-5.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/glassfish-embedded-all-5.0.jar!/org/glassfish/hk2/external" />
+    </SOURCES>
+  </library>
+</component>

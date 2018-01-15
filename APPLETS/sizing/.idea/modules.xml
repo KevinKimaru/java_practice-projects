@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sizing.iml" filepath="$PROJECT_DIR$/.idea/modules/sizing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sizing_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sizing_main.iml" group="sizing" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sizing_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sizing_test.iml" group="sizing" />
+    </modules>
+  </component>
+</project>

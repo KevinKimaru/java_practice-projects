@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/enumerations-autoboxing.iml" filepath="$PROJECT_DIR$/.idea/modules/enumerations-autoboxing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/enumerations-autoboxing_main.iml" filepath="$PROJECT_DIR$/.idea/modules/enumerations-autoboxing_main.iml" group="enumerations-autoboxing" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/enumerations-autoboxing_test.iml" filepath="$PROJECT_DIR$/.idea/modules/enumerations-autoboxing_test.iml" group="enumerations-autoboxing" />
+    </modules>
+  </component>
+</project>

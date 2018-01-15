@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jtable.iml" filepath="$PROJECT_DIR$/.idea/modules/jtable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jtable_main.iml" filepath="$PROJECT_DIR$/.idea/modules/jtable_main.iml" group="jtable" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jtable_test.iml" filepath="$PROJECT_DIR$/.idea/modules/jtable_test.iml" group="jtable" />
+    </modules>
+  </component>
+</project>

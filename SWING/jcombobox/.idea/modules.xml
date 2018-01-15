@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jcombobox.iml" filepath="$PROJECT_DIR$/.idea/modules/jcombobox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jcombobox_main.iml" filepath="$PROJECT_DIR$/.idea/modules/jcombobox_main.iml" group="jcombobox" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/jcombobox_test.iml" filepath="$PROJECT_DIR$/.idea/modules/jcombobox_test.iml" group="jcombobox" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javabook-generics.iml" filepath="$PROJECT_DIR$/.idea/modules/javabook-generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javabook-generics_main.iml" filepath="$PROJECT_DIR$/.idea/modules/javabook-generics_main.iml" group="javabook-generics" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javabook-generics_test.iml" filepath="$PROJECT_DIR$/.idea/modules/javabook-generics_test.iml" group="javabook-generics" />
+    </modules>
+  </component>
+</project>

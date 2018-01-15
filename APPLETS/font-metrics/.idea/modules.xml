@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/font-metrics.iml" filepath="$PROJECT_DIR$/.idea/modules/font-metrics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/font-metrics_main.iml" filepath="$PROJECT_DIR$/.idea/modules/font-metrics_main.iml" group="font-metrics" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/font-metrics_test.iml" filepath="$PROJECT_DIR$/.idea/modules/font-metrics_test.iml" group="font-metrics" />
+    </modules>
+  </component>
+</project>
