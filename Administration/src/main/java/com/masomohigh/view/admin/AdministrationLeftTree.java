@@ -25,6 +25,8 @@ public class AdministrationLeftTree {
     private Label manageHousesLabel;
     private TreeItem<Label> manageClassesTreeItem;
     private Label manageClassesLabel;
+    private TreeItem<Label> manageStudentsTreeItem;
+    private Label manageStudentsLabel;
     private TreeItem<Label> manageExamsTreeItem;
     private Label manageExamsLabel;
     private TreeItem<Label> manageAboutTreeItem;
@@ -50,6 +52,11 @@ public class AdministrationLeftTree {
     private TreeItem<Label> allClassesTreeItem;
     private Label allClassesLabel;
 
+    private TreeItem<Label> addStudentTreeItem;
+    private Label addStudentLabel;
+    private TreeItem<Label> allStudentsTreeItem;
+    private Label allStudentsLabel;
+
     public AdministrationLeftTree() {
         treeBarLabel = new Label();
         rootAdministrationLabel = new Label("Administration");
@@ -57,6 +64,7 @@ public class AdministrationLeftTree {
         manageTeachersLabel = new Label("Manage Teachers");
         manageHousesLabel = new Label("Manage Houses");
         manageClassesLabel = new Label("Manage Classes");
+        manageStudentsLabel = new Label("Manage Students");
         manageExamsLabel = new Label("Manage Exams");
         manageAboutLabel = new Label("Manage About");
         homeLabel = new Label("Home");
@@ -71,6 +79,9 @@ public class AdministrationLeftTree {
         generateClassesLabel = new Label("Generate Classes");
         allClassesLabel = new Label("All Classes");
 
+        addStudentLabel = new Label("Add Student");
+        allStudentsLabel = new Label("All Students");
+
         treeBarTeeView = new TreeView<Label>();
         treeBarTeeView.getStyleClass().add("navigationBar2");
 
@@ -81,6 +92,7 @@ public class AdministrationLeftTree {
         manageTeachersTreeItem = new TreeItem<Label>(manageTeachersLabel);
         manageHousesTreeItem = new TreeItem<Label>(manageHousesLabel);
         manageClassesTreeItem = new TreeItem<Label>(manageClassesLabel);
+        manageStudentsTreeItem = new TreeItem<Label>(manageStudentsLabel);
         manageExamsTreeItem = new TreeItem<Label>(manageExamsLabel);
         manageAboutTreeItem = new TreeItem<Label>(manageAboutLabel);
         homeTreeItem = new TreeItem<Label>(homeLabel);
@@ -95,14 +107,19 @@ public class AdministrationLeftTree {
         generateClassesTreeItem = new TreeItem<>(generateClassesLabel);
         allClassesTreeItem = new TreeItem<>(allClassesLabel);
 
+        addStudentTreeItem = new TreeItem<>(addStudentLabel);
+        allStudentsTreeItem = new TreeItem<>(allStudentsLabel);
+
         manageAdministratorsTreeItem.getChildren().addAll(addAdminTreeItem, viewAdminDetailsTreeItem, allAdminsTreeItem);
 
         manageTeachersTreeItem.getChildren().addAll(addTeacherTreeItem, allTeachersTreeItem);
 
         manageClassesTreeItem.getChildren().addAll(generateClassesTreeItem, allClassesTreeItem);
 
+        manageStudentsTreeItem.getChildren().addAll(addStudentTreeItem, allStudentsTreeItem);
+
         rootAdministrationTreeItem.getChildren().addAll(manageAdministratorsTreeItem, manageTeachersTreeItem, manageHousesTreeItem,
-                manageClassesTreeItem, manageExamsTreeItem, manageAboutTreeItem, homeTreeItem);
+                manageClassesTreeItem, manageStudentsTreeItem, manageExamsTreeItem, manageAboutTreeItem, homeTreeItem);
         treeBarTeeView.setRoot(rootAdministrationTreeItem);
 
         setBtnActions();
@@ -184,6 +201,24 @@ public class AdministrationLeftTree {
                 if (event.getClickCount() == 2) {
                     MainApp.allViewsAdminClass.getAllClasses().populateView();
                     MainApp.rootScene.getMainView().setCenter(MainApp.allViewsAdminClass.getAllClasses().getMainAllClassesVBox());
+                }
+            }
+        });
+
+        addStudentLabel.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                if (event.getClickCount() == 2) {
+                    MainApp.rootScene.getMainView().setCenter(MainApp.allViewsAdminStudent.getAddStudent().getMainStudentSignupVBox());
+                }
+            }
+        });
+
+        allStudentsLabel.setOnMouseClicked(new EventHandler<MouseEvent>() {
+            @Override
+            public void handle(MouseEvent event) {
+                if (event.getClickCount() == 2) {
+                    MainApp.rootScene.getMainView().setCenter(MainApp.allViewsAdminStudent.getAllStudents().getViewStudentsVBox());
                 }
             }
         });

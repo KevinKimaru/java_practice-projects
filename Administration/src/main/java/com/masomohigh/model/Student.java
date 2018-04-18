@@ -52,20 +52,18 @@ public class Student implements Serializable {
     /**
      * Missing: subjects, guardinan, classes
      */
-    public Student(int fileNumber, String password, String firstName, String middleName, String lastName, Date dateOfBirth, House house, String stream,
-                   int form, Date dateOfAdmission, String status) {
+    public Student(int fileNumber, String password, String firstName, String middleName, String lastName,
+                   Date dateOfBirth, Date dateOfAdmission, String status) {
         this.fileNumber = fileNumber;
         this.password = password;
         this.firstName = firstName;
         this.middleName = middleName;
         this.lastName = lastName;
         this.dateOfBirth = dateOfBirth;
-        this.house = house;
-        this.stream = stream;
-        this.form = form;
         this.dateOfAdmission = dateOfAdmission;
         this.status = status;
         classes = new ArrayList<Class>();
+        subjects = new ArrayList<>();
     }
 
     public int getFileNumber() {

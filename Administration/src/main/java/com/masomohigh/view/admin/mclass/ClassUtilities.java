@@ -13,12 +13,18 @@ import java.util.Set;
 public class ClassUtilities {
 
     public static Set<String> AVAILABLE_CLASSES = new HashSet<>();
+    public static String SELECTED_CLASS = null;
+    public static String SELECTED_CLASS_NAME = null;
 
     public static void setAvailableClasses() {
         List<Class> classes = ClassController.fetchAllClasses();
         for (Class c: classes) {
             AVAILABLE_CLASSES.add(c.getName());
         }
+    }
+
+    public static void setSelectedClass() {
+
     }
 
 }

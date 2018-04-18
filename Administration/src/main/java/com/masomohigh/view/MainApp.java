@@ -3,6 +3,8 @@ package com.masomohigh.view;
 import com.masomohigh.view.admin.administrator.AllViewsAdminAdmin;
 import com.masomohigh.view.admin.mclass.AllViewsAdminClass;
 import com.masomohigh.view.admin.mclass.ClassUtilities;
+import com.masomohigh.view.admin.student.AllViewsAdminStudent;
+import com.masomohigh.view.admin.student.StudentUtilities;
 import com.masomohigh.view.admin.teacher.AllViewsAdminTeacher;
 import com.masomohigh.view.admin.teacher.TeacherUtilities;
 import javafx.application.Application;
@@ -21,6 +23,7 @@ public class MainApp extends Application {
     public static AllViewsAdminAdmin allViewsAdminAdmin;
     public static AllViewsAdminTeacher allViewsAdminTeacher;
     public static AllViewsAdminClass allViewsAdminClass;
+    public static AllViewsAdminStudent allViewsAdminStudent;
 
     public static final String[] STUDENTSTATUSES = new String[5];
     public static final String[] STAFFSTATUSES = new String[6];
@@ -37,10 +40,12 @@ public class MainApp extends Application {
         ClassUtilities.setAvailableClasses();
         TeacherUtilities.setAvailableTeacherPositions();
         TeacherUtilities.getAllTeachers();
+        StudentUtilities.getAllStudents();
 
         allViewsAdminAdmin = new AllViewsAdminAdmin();
         allViewsAdminTeacher = new AllViewsAdminTeacher();
         allViewsAdminClass = new AllViewsAdminClass();
+        allViewsAdminStudent = new AllViewsAdminStudent();
 
         rootScene = new RootScene();
 

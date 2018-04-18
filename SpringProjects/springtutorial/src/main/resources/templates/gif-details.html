@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Gif Details</title>
+    <link rel="stylesheet" th:href="@{/app.css}"/>
+</head>
+<body>
+    <h1>Gif Details</h1>
+    <img th:src="@{'/gifs/' + ${gif.name} + '.jpg'}" alt="bird"/>
+    <div th:class="(${gif.favourite} ? 'mark ': '') + fav"></div>
+    <h4 th:text="${gif.username}"></h4>
+    <h5 th:text="'Uploaded by ' + ${gif.dateuploaded}"></h5>
+</body>
+</html>

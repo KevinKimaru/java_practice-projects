@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Category Details</title>
+</head>
+<body>
+
+    <h1 th:text="${category.name}"></h1>
+    <div th:each = "gif: ${gifs}">
+        <a th:href="@{'/gif/' + ${gif.name}}"><img th:src="@{'/gif/' + ${gif.name}}" alt=""/></a>
+    </div>
+
+</body>
+</html>

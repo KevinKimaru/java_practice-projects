@@ -44,12 +44,15 @@ public class App extends JApplet {
                 {"Helen", "6751", "145"}
         };
 
+
         //Create the table
         JTable jT = new JTable(data, colHeads);
-
+        jT.getSelectedRow();
+        jT.getC
         //Add the table to a scroll pane
         JScrollPane jSP = new JScrollPane(jT);
 
         add(jSP);
     }
+
 }

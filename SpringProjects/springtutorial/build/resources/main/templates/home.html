@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Giflib | Home</title>
+    <link rel="stylesheet" th:href="@{/app.css}"/>
+</head>
+<body>
+    <h1>Home</h1>
+    <div th:each = "gif : ${gifs}">
+        <a th:href="@{'/gif/' + ${gif.name}}">
+            <div>
+                <img th:src="@{'/gifs/' + ${gif.name} + '.jpg'}" alt="bird" width="400px" height="400px" class="img-div"/>
+                <div th:class="(${gif.favourite} ? 'mark ': '') + fav"></div>
+            </div>
+        </a>
+    </div>
+</body>
+</html>

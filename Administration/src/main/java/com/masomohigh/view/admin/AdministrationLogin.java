@@ -151,5 +151,9 @@ public class AdministrationLogin {
 
         MainApp.allViewsAdminClass.getAddClass().getAdministartionBlockTitle().setLabel();
         MainApp.allViewsAdminClass.getAllClasses().getAdministartionBlockTitle().setLabel();
+
+        MainApp.allViewsAdminStudent.getAddStudent().getAdministartionBlockTitle().setLabel();
+        MainApp.allViewsAdminStudent.getAllStudents().getAdministartionBlockTitle().setLabel();
+        MainApp.allViewsAdminStudent.getStudentDetails().getAdministartionBlockTitle().setLabel();
     }
 }

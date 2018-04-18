@@ -108,16 +108,20 @@ public class AllClasses {
         List<Class> classes = ClassController.fetchAllClasses();
         ObservableList<ClassDataModel> classData = FXCollections.observableArrayList();
 
+        Teacher classTeacher = null;
+
         for (Class mClass: classes) {
             String classTeacherString = "";
             try {
-                Teacher classTeacher = mClass.getClassTeachers().get(mClass.getClassTeachers().size() - 1);
-                classTeacherString = classTeacher.getFirstName() + " " + classTeacher.getMiddleName().charAt(0)
-                    + " " + classTeacher.getLastName();
+                if (mClass.getClassTeachers().isEmpty()) {
+                    classTeacherString = "Null";
+                } else {
+                    classTeacher = mClass.getClassTeachers().get(mClass.getClassTeachers().size() - 1);
+                    classTeacherString = classTeacher.getFirstName() + " " + classTeacher.getMiddleName().charAt(0)
+                            + " " + classTeacher.getLastName();
+                }
             } catch(NullPointerException e) {
-                classTeacherString = "Null";
-            } catch(ArrayIndexOutOfBoundsException e) {
-                classTeacherString = "Null";
+                classTeacherString = "Null pointer";
             }
             classData.add(
                     new ClassDataModel(mClass.getName(), String.valueOf(mClass.getForm()), mClass.getStream(),
@@ -126,10 +130,10 @@ public class AllClasses {
         }
 
         nameColumn.setCellValueFactory(new PropertyValueFactory<ClassDataModel, String>("name"));
-        nameColumn.setCellValueFactory(new PropertyValueFactory<ClassDataModel, Integer>("form"));
-        nameColumn.setCellValueFactory(new PropertyValueFactory<ClassDataModel, String>("stream"));
-        nameColumn.setCellValueFactory(new PropertyValueFactory<ClassDataModel, Integer>("year"));
-        nameColumn.setCellValueFactory(new PropertyValueFactory<ClassDataModel, String>("classTeacher"));
+        formColumn.setCellValueFactory(new PropertyValueFactory<ClassDataModel, String>("form"));
+        streamColumn.setCellValueFactory(new PropertyValueFactory<ClassDataModel, String>("stream"));
+        yearColumn.setCellValueFactory(new PropertyValueFactory<ClassDataModel, String>("year"));
+        classTeacherColumn.setCellValueFactory(new PropertyValueFactory<ClassDataModel, String>("classTeacher"));
 
         classesTable.setItems(classData);
 
@@ -149,5 +153,7 @@ public class AllClasses {
             }
         });
     }
+
+
 }
 

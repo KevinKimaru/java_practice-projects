@@ -3,6 +3,7 @@ package com.masomohigh.view.admin.mclass;
 import com.masomohigh.controller.ClassController;
 import com.masomohigh.view.MainApp;
 import com.masomohigh.view.admin.AdministartionBlockTitle;
+import com.masomohigh.view.admin.student.StudentUtilities;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -77,6 +78,9 @@ public class AddClass {
         mainAddClassVBox.getChildren().addAll(mAdministartionBlockTitle.getTopAdminBarBorderPane(),
                 addClassLabel, classGenGridPane, btnsHBox);
 
+        streamListView.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
+        formListView.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
+
         beautifyView();
         setBtnActions();
     }
@@ -110,9 +114,6 @@ public class AddClass {
     }
 
     private void generateClass() {
-        streamListView.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
-        formListView.getSelectionModel().setSelectionMode(SelectionMode.MULTIPLE);
-
         ObservableList<Integer> selectedForms = formListView.getSelectionModel().getSelectedItems();
         ObservableList<String> selectedStreams = streamListView.getSelectionModel().getSelectedItems();
         int year = yearComboBox.getValue();
@@ -135,6 +136,7 @@ public class AddClass {
                 Alert succAlert = new Alert(Alert.AlertType.INFORMATION);
                 succAlert.setContentText("Classes Generated Successfully.");
                 succAlert.show();
+                StudentUtilities.getAllStudents();
                 MainApp.allViewsAdminClass.getAllClasses().populateView();
                 MainApp.rootScene.getMainView().setCenter(MainApp.allViewsAdminClass.getAllClasses().getMainAllClassesVBox());
             } catch(Exception e) {

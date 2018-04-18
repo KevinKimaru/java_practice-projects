@@ -21,6 +21,12 @@ public class Main {
 
         String k = "";
         System.out.println("Is Empty: " + k.isEmpty());
+
+//        Date date1 = new Date(12, 12, 1999);
+//        Calendar calendar = Calendar.getInstance();
+//        calendar.set();
+//        Date date2 = new Date();
+//        if (date1.after())
     }
 
     private static void dates() {
